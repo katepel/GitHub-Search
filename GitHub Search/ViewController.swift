@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  GitHub Search
-//
-//  Created by Katarina Pelicaric on 26/08/2017.
-//  Copyright © 2017 Katarina Pelicaric. All rights reserved.
-//
 
 import UIKit
 
