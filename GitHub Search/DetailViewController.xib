@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="GitHub_Search" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="5D0-dW-QBV" id="j3g-gv-sGO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleAspectFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5D0-dW-QBV">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5D0-dW-QBV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5pb-5G-uRM"/>
+                <constraint firstItem="5D0-dW-QBV" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="Lcf-jS-q5w"/>
+                <constraint firstAttribute="trailing" secondItem="5D0-dW-QBV" secondAttribute="trailing" id="OYM-ie-ozl"/>
+                <constraint firstItem="5D0-dW-QBV" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="R56-hQ-pfc"/>
+                <constraint firstItem="5D0-dW-QBV" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="jdv-R8-B8o"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
